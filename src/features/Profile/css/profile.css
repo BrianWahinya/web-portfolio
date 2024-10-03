@@ -1,0 +1,110 @@
+.div-profile {
+  max-width: 385px;
+}
+.div-profile .p-title {
+  color: #bfb5aa;
+  text-wrap: nowrap;
+}
+.div-profile .p-years,
+.div-profile .p-technologies {
+  color: rgb(64, 150, 193);
+}
+.div-profile .div-skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin: 5px 0;
+}
+.div-profile .div-skills .div-skill {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  max-width: 200px;
+  padding: 10px 5px;
+  border-radius: 3px;
+  background-color: rgba(173, 173, 173, 0.065);
+}
+.div-profile .div-skills .div-skill svg {
+  width: 24px;
+  height: 24px;
+  color: rgba(176, 139, 105, 0.7490196078);
+}
+.div-profile .div-skills .div-skill .p-skill {
+  color: #b08b69;
+}
+.div-profile .div-skills .div-skill:hover {
+  cursor: pointer;
+  background-color: rgba(173, 173, 173, 0.187);
+}
+.div-profile .div-techs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin: 5px 0;
+}
+.div-profile .div-techs .div-tech {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  max-width: 200px;
+  padding: 10px 5px;
+  border-radius: 3px;
+  background-color: rgba(173, 173, 173, 0.065);
+}
+.div-profile .div-techs .div-tech svg {
+  width: 24px;
+  height: 24px;
+  color: rgba(155, 172, 149, 0.7490196078);
+}
+.div-profile .div-techs .div-tech .p-tech {
+  color: #9bac95;
+}
+.div-profile .div-techs .div-tech hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-top: 1px solid rgb(140, 67, 67);
+  width: 90%;
+}
+.div-profile .div-techs .div-tech:hover {
+  cursor: pointer;
+  background-color: rgba(173, 173, 173, 0.127);
+}
+.div-profile .div-techs .div-tech .div-brands {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+.div-profile .div-techs .div-tech .div-brands .div-brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(167, 182, 156, 0.1960784314);
+  min-height: 50px;
+  min-width: 50px;
+  padding: 5px;
+  border-radius: 2px;
+}
+.div-profile .div-techs .div-tech .div-brands .div-brand svg {
+  width: 20px;
+  height: 20px;
+  color: rgba(75, 21, 64, 0.7450980392);
+}
+.div-profile .div-techs .div-tech .div-brands .div-brand .p-brand {
+  color: #1b0f18;
+}

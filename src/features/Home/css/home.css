@@ -1,0 +1,23 @@
+.p-welcome {
+  color: #bfb5aa;
+  margin-top: 5px;
+}
+
+blockquote {
+  margin: 0;
+  color: #bfb5aa;
+  text-wrap: nowrap;
+}
+blockquote pre {
+  font-family: Courier New, Courier, monospace;
+  font-size: 0.5rem;
+  line-height: 110%;
+  margin: 0px;
+  overflow: visible;
+  display: block;
+  unicode-bidi: isolate;
+}
+blockquote pre small {
+  white-space: pre-wrap nowrap;
+  color: #bfb5aa;
+}

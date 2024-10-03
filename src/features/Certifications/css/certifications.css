@@ -1,0 +1,47 @@
+.div-certifications {
+  max-width: 385px;
+}
+.div-certifications .p-title {
+  color: #bfb5aa;
+  text-wrap: nowrap;
+}
+.div-certifications .div-certs {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  padding: 10px 5px;
+  margin: 5px 0;
+  background-color: rgba(173, 173, 173, 0.065);
+}
+.div-certifications .div-certs .div-cert {
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+.div-certifications .div-certs .div-cert .p-name {
+  font-weight: bold;
+  color: rgb(134, 122, 132);
+}
+.div-certifications .div-certs .div-cert .p-cert {
+  font-weight: bold;
+  color: rgb(173, 151, 170);
+}
+.div-certifications .div-certs .div-cert .p-school {
+  color: rgb(125, 118, 147);
+}
+.div-certifications .div-certs .div-cert .p-duration {
+  color: rgb(28, 2, 2);
+}
+.div-certifications .div-certs .div-cert:hover {
+  background-color: rgba(173, 173, 173, 0.187);
+  cursor: pointer;
+}
+.div-certifications hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
+  border: none;
+  border-top: 1px solid rgb(140, 67, 67);
+  width: 80%;
+}

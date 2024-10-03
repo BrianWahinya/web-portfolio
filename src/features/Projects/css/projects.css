@@ -1,0 +1,125 @@
+.div-projects {
+  max-width: 385px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.div-projects .p-title {
+  color: #bfb5aa;
+  text-wrap: nowrap;
+}
+.div-projects .div-company,
+.div-projects .div-personal,
+.div-projects .div-masters {
+  background-color: rgba(173, 173, 173, 0.065);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5px;
+  gap: 3px;
+}
+.div-projects .div-company .p-project-type,
+.div-projects .div-personal .p-project-type,
+.div-projects .div-masters .p-project-type {
+  width: 100%;
+  color: #b08b69;
+}
+.div-projects .div-company .a-project,
+.div-projects .div-personal .a-project,
+.div-projects .div-masters .a-project {
+  flex-grow: 1;
+  padding: 5px 10px;
+  border-radius: 2px;
+  background-color: rgba(170, 184, 191, 0.1137254902);
+  text-decoration: none;
+  color: rgba(60, 19, 51, 0.9843137255);
+}
+.div-projects .div-company .a-project:hover:not(.a-disabled),
+.div-projects .div-personal .a-project:hover:not(.a-disabled),
+.div-projects .div-masters .a-project:hover:not(.a-disabled) {
+  background-color: rgba(170, 184, 191, 0.3921568627);
+  cursor: pointer;
+}
+.div-projects .div-company .a-project:hover:not(.a-disabled) .div-logo,
+.div-projects .div-personal .a-project:hover:not(.a-disabled) .div-logo,
+.div-projects .div-masters .a-project:hover:not(.a-disabled) .div-logo {
+  background-color: rgba(58, 92, 121, 0.3529411765);
+  border-color: transparent;
+}
+.div-projects .div-company .a-project.a-disabled,
+.div-projects .div-personal .a-project.a-disabled,
+.div-projects .div-masters .a-project.a-disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+.div-projects .div-company .a-project {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding: 5px 5px 5px 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.div-projects .div-company .a-project .div-content {
+  margin-left: 10px;
+}
+.div-projects .div-company .a-project .div-content .p-name {
+  font-weight: bold;
+  color: rgb(158, 139, 156);
+}
+.div-projects .div-company .a-project .div-content .p-client {
+  font-weight: bold;
+  color: rgb(50, 25, 45);
+}
+.div-projects .div-company .a-project .div-logo {
+  border: 1px solid rgba(75, 21, 64, 0.3490196078);
+  height: 100%;
+  place-content: center;
+  padding: 0 4px;
+  border-radius: 0 12px 2px 0;
+}
+.div-projects .div-company .a-project .div-logo img {
+  width: 28px;
+  height: 28px;
+}
+.div-projects .div-company .a-project .div-logo img.smaller {
+  width: 25px;
+  height: 25px;
+}
+.div-projects .div-company .a-project:hover:not(.a-disabled) .div-content .p-name {
+  color: rgb(199, 199, 199);
+}
+.div-projects .div-company .a-project:hover:not(.a-disabled) .div-content .p-client {
+  color: rgb(76, 67, 74);
+}
+.div-projects .div-personal .a-project .p-name,
+.div-projects .div-masters .a-project .p-name {
+  display: flex;
+  flex-direction: row;
+  color: rgba(38, 9, 32, 0.9843137255);
+  gap: 5px;
+}
+.div-projects .div-personal .a-project .p-name span,
+.div-projects .div-masters .a-project .p-name span {
+  color: rgba(38, 9, 32, 0.9843137255);
+}
+.div-projects .div-personal .a-project .p-name svg,
+.div-projects .div-masters .a-project .p-name svg {
+  color: rgb(37, 37, 37);
+  width: 20px;
+  height: 20px;
+}
+.div-projects .div-personal .a-project:hover .p-name,
+.div-projects .div-masters .a-project:hover .p-name {
+  color: rgb(199, 199, 199);
+}
+.div-projects .div-personal .a-project:hover .p-name span,
+.div-projects .div-masters .a-project:hover .p-name span {
+  color: rgb(199, 199, 199);
+}
+.div-projects .div-personal .a-project:hover .p-name svg,
+.div-projects .div-masters .a-project:hover .p-name svg {
+  color: rgb(33, 30, 30);
+}

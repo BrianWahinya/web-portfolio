@@ -1,0 +1,125 @@
+.div-contact {
+  max-width: 385px;
+  display: flex;
+  flex-direction: column;
+  .p-title {
+    color: #bfb5aa;
+    text-wrap: nowrap;
+  }
+  .p-name {
+    // color: rgba(174, 106, 64);
+    color: #b08b69;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: center;
+    vertical-align: middle;
+    gap: 5px;
+    span {
+      align-items: center;
+      vertical-align: middle;
+    }
+  }
+  .p-value {
+    // color: rgb(227, 118, 50);
+    color: rgb(85, 184, 169);
+  }
+  .div-a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(173, 173, 173, 0.065);
+    // border: 1px solid rgb(23, 63, 115);
+    border-radius: 3px;
+    div {
+      flex-grow: 1;
+      padding: 5px;
+    }
+    &:hover {
+      //   cursor: pointer;
+      //   background-color: #bfb5aa5e;
+      background-color: rgba(173, 173, 173, 0.187);
+    }
+  }
+  .div-b {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    background-color: rgba(173, 173, 173, 0.065);
+    // border: 1px solid rgb(23, 63, 115);
+    border-radius: 3px;
+    text-align: center;
+    gap: 5px;
+    padding: 5px;
+    p {
+      flex-grow: 1;
+      //   padding: 0 5px;
+      text-align: left;
+    }
+    .div-communities {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 3px;
+      a {
+        flex-grow: 1;
+        width: 45%;
+        padding: 5px;
+        border-radius: 2px;
+        background-color: #aab8bf56;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        svg {
+          height: 16px;
+          width: 16px;
+          color: #4b1540be;
+        }
+        span {
+          color: #4b1540fb;
+        }
+        &#contact_github {
+          span,
+          svg {
+            color: #190715e0;
+          }
+        }
+        &#contact_stackoverflow {
+          span,
+          svg {
+            color: #4e3308f5;
+          }
+        }
+        &#contact_linkedin {
+          span,
+          svg {
+            color: #092365f5;
+          }
+        }
+        &#contact_instagram {
+          span,
+          svg {
+            color: #6c2541f5;
+          }
+        }
+        &:hover {
+          cursor: pointer;
+          background-color: #aab8bf9a;
+          span,
+          svg {
+            color: #4b1540fb !important;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

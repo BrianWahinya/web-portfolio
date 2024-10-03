@@ -1,0 +1,51 @@
+.div-help {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.div-help h4,
+.div-help ul {
+  padding: 2px 0;
+  margin: 2px 0;
+}
+.div-help ul {
+  padding: 0 0 0 20px;
+}
+.div-help h4 {
+  color: rgb(218, 152, 71);
+}
+.div-help .div-topic .title {
+  text-decoration: underline;
+  margin-top: 4px;
+  color: rgb(220, 199, 85);
+}
+.div-help .div-topic span {
+  color: rgb(64, 150, 193);
+}
+.div-help .div-topic .help-commands {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+}
+.div-help .div-topic .help-commands .help-command {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  max-width: 550px;
+  gap: 10px;
+}
+.div-help .div-topic .help-commands .help-command .p-command {
+  width: 35%;
+  min-width: 35%;
+  color: rgb(219, 196, 168);
+}
+.div-help .div-topic .help-commands .help-command .p-desc {
+  flex-grow: 1;
+  color: rgb(64, 150, 193);
+}
+.div-help .div-topic .help-commands .help-command:hover {
+  cursor: pointer;
+  background-color: rgba(173, 173, 173, 0.127);
+}

@@ -1,0 +1,50 @@
+.div-certifications {
+  max-width: 385px;
+  .p-title {
+    color: #bfb5aa;
+    text-wrap: nowrap;
+  }
+  .div-certs {
+    display: flex;
+    flex-direction: column;
+    // border: 1px solid red;
+    border-radius: 3px;
+    padding: 10px 5px;
+    margin: 5px 0;
+    background-color: rgba(173, 173, 173, 0.065);
+    .div-cert {
+      padding: 5px 10px;
+      border-radius: 2px;
+      .p-name {
+        font-weight: bold;
+        color: rgb(134, 122, 132);
+      }
+      .p-cert {
+        font-weight: bold;
+        color: rgb(173, 151, 170);
+      }
+      .p-school {
+        color: rgb(125, 118, 147);
+      }
+      .p-duration {
+        color: rgb(28, 2, 2);
+      }
+      &:hover {
+        background-color: rgba(173, 173, 173, 0.187);
+        cursor: pointer;
+      }
+    }
+  }
+  hr {
+    // color: red;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    // border-style: inset;
+    border: none;
+    border-top: 1px solid rgb(140, 67, 67);
+    width: 80%;
+  }
+}

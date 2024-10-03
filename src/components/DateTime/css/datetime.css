@@ -1,0 +1,12 @@
+.p-datetime {
+  padding: 0;
+  margin: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-wrap: nowrap;
+  font-size: 0.8rem;
+  text-align: center;
+  vertical-align: middle;
+}

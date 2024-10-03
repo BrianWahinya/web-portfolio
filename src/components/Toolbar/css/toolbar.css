@@ -1,0 +1,92 @@
+.div-toolbar {
+  display: flex;
+  min-height: 30px;
+  height: -moz-fit-content;
+  height: fit-content;
+  align-items: flex-end;
+  padding: 0 8px;
+  padding-top: 8px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: linear-gradient(rgba(80, 75, 69, 0.6666666667) 0%, rgba(60, 59, 55, 0.6666666667) 100%);
+  gap: 5px;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.div-toolbar .div-button {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 0px;
+  border-radius: 5px 5px 0px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgba(113, 92, 107, 0.593);
+  border-bottom: none;
+  gap: 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgba(113, 92, 107, 0.357);
+}
+.div-toolbar .div-button button {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  white-space: nowrap;
+  font-size: 0.7rem;
+}
+.div-toolbar .div-button button:hover {
+  cursor: pointer;
+}
+.div-toolbar .div-button .btn-tab {
+  min-width: 50px;
+  flex-grow: 1;
+  padding: 5px 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  color: rgb(28, 28, 28);
+}
+.div-toolbar .div-button .btn-tab svg {
+  height: 16px;
+  width: 16px;
+  margin-bottom: -1px;
+}
+.div-toolbar .div-button:not(:first-child) .btn-tab span {
+  text-transform: capitalize;
+}
+.div-toolbar .div-button .btn-close {
+  width: 15px;
+  height: 100%;
+  font-size: 0.6rem;
+  flex-grow: 0;
+  text-align: right;
+  vertical-align: bottom;
+  padding: 7px 18px 5px 5px;
+}
+.div-toolbar .div-button .btn-close:hover {
+  color: rgb(177, 108, 108);
+  font-weight: bolder;
+  cursor: pointer;
+}
+.div-toolbar .div-button .btn-close:active {
+  transform: scale(1.2);
+}
+.div-toolbar .div-button.active-tab {
+  border: 1px solid rgba(71, 6, 51, 0.596);
+  border-bottom: none;
+  background-color: rgba(113, 92, 107, 0.835);
+}
+.div-toolbar .div-button.active-tab .btn-tab {
+  text-decoration: underline;
+}
+.div-toolbar .div-button:hover {
+  background-color: rgba(113, 92, 107, 0.593);
+  color: #bfb5aa;
+  cursor: pointer;
+}
+.div-toolbar .div-button:hover button.btn-close {
+  display: block;
+}

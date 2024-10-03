@@ -1,0 +1,51 @@
+.div-education {
+  max-width: 385px;
+}
+.div-education .p-title {
+  color: #bfb5aa;
+  text-wrap: nowrap;
+}
+.div-education .p-subtitle {
+  color: #787878;
+  text-wrap: nowrap;
+}
+.div-education .div-courses {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  padding: 10px 5px;
+  margin: 5px 0;
+  background-color: rgba(173, 173, 173, 0.065);
+}
+.div-education .div-courses .div-course {
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+.div-education .div-courses .div-course .p-name {
+  font-weight: bold;
+  color: rgb(134, 122, 132);
+}
+.div-education .div-courses .div-course .p-course {
+  font-weight: bold;
+  color: rgb(173, 151, 170);
+}
+.div-education .div-courses .div-course .p-school {
+  color: rgb(125, 118, 147);
+}
+.div-education .div-courses .div-course .p-duration {
+  color: rgb(28, 2, 2);
+}
+.div-education .div-courses .div-course:hover {
+  background-color: rgba(173, 173, 173, 0.187);
+  cursor: pointer;
+}
+.div-education hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
+  border: none;
+  border-top: 1px solid rgb(140, 67, 67);
+  width: 80%;
+}

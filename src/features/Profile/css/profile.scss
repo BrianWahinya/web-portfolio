@@ -1,0 +1,122 @@
+.div-profile {
+  max-width: 385px;
+  .p-title {
+    color: #bfb5aa;
+    text-wrap: nowrap;
+  }
+  .p-years,
+  .p-technologies {
+    color: rgb(64, 150, 193);
+  }
+  .div-skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin: 5px 0;
+    .div-skill {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: 100px;
+      max-width: 200px;
+      padding: 10px 5px;
+      border-radius: 3px;
+      background-color: rgba(173, 173, 173, 0.065);
+      svg {
+        width: 24px;
+        height: 24px;
+        // color: #8c5691bf;
+        // color: #709156bf;
+        // color: #917356bf;
+        color: #b08b69bf;
+      }
+      .p-skill {
+        // color: #4b849a;
+        // color: #709156;
+        color: #b08b69;
+      }
+      &:hover {
+        cursor: pointer;
+        background-color: rgba(173, 173, 173, 0.187);
+      }
+    }
+  }
+  .div-techs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin: 5px 0;
+    .div-tech {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: 100px;
+      max-width: 200px;
+      padding: 10px 5px;
+      border-radius: 3px;
+      background-color: rgba(173, 173, 173, 0.065);
+      svg {
+        width: 24px;
+        height: 24px;
+        // color: #7bb069bf;
+        color: #9bac95bf;
+      }
+      .p-tech {
+        // color: #7bb069;
+        color: #9bac95;
+      }
+      hr {
+        // color: red;
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        // border-style: inset;
+        border: none;
+        border-top: 1px solid rgb(140, 67, 67);
+        width: 90%;
+      }
+      &:hover {
+        cursor: pointer;
+        background-color: rgba(173, 173, 173, 0.127);
+      }
+      .div-brands {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2px;
+        .div-brand {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          //   background-color: #95b0693e;
+          //   background-color: #95b06932;
+          //   background-color: #acb69c32;
+          background-color: #a7b69c32;
+          min-height: 50px;
+          min-width: 50px;
+          padding: 5px;
+          border-radius: 2px;
+          svg {
+            width: 20px;
+            height: 20px;
+            color: #4b1540be;
+          }
+          .p-brand {
+            color: #1b0f18;
+          }
+        }
+      }
+    }
+  }
+}

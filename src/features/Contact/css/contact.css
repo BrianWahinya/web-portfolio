@@ -1,0 +1,110 @@
+.div-contact {
+  max-width: 385px;
+  display: flex;
+  flex-direction: column;
+}
+.div-contact .p-title {
+  color: #bfb5aa;
+  text-wrap: nowrap;
+}
+.div-contact .p-name {
+  color: #b08b69;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: left;
+  align-items: center;
+  vertical-align: middle;
+  gap: 5px;
+}
+.div-contact .p-name span {
+  align-items: center;
+  vertical-align: middle;
+}
+.div-contact .p-value {
+  color: rgb(85, 184, 169);
+}
+.div-contact .div-a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 5px;
+  margin-bottom: 5px;
+  background-color: rgba(173, 173, 173, 0.065);
+  border-radius: 3px;
+}
+.div-contact .div-a div {
+  flex-grow: 1;
+  padding: 5px;
+}
+.div-contact .div-a:hover {
+  background-color: rgba(173, 173, 173, 0.187);
+}
+.div-contact .div-b {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  background-color: rgba(173, 173, 173, 0.065);
+  border-radius: 3px;
+  text-align: center;
+  gap: 5px;
+  padding: 5px;
+}
+.div-contact .div-b p {
+  flex-grow: 1;
+  text-align: left;
+}
+.div-contact .div-b .div-communities {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3px;
+}
+.div-contact .div-b .div-communities a {
+  flex-grow: 1;
+  width: 45%;
+  padding: 5px;
+  border-radius: 2px;
+  background-color: rgba(170, 184, 191, 0.337254902);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.div-contact .div-b .div-communities a svg {
+  height: 16px;
+  width: 16px;
+  color: rgba(75, 21, 64, 0.7450980392);
+}
+.div-contact .div-b .div-communities a span {
+  color: rgba(75, 21, 64, 0.9843137255);
+}
+.div-contact .div-b .div-communities a#contact_github span,
+.div-contact .div-b .div-communities a#contact_github svg {
+  color: rgba(25, 7, 21, 0.8784313725);
+}
+.div-contact .div-b .div-communities a#contact_stackoverflow span,
+.div-contact .div-b .div-communities a#contact_stackoverflow svg {
+  color: rgba(78, 51, 8, 0.9607843137);
+}
+.div-contact .div-b .div-communities a#contact_linkedin span,
+.div-contact .div-b .div-communities a#contact_linkedin svg {
+  color: rgba(9, 35, 101, 0.9607843137);
+}
+.div-contact .div-b .div-communities a#contact_instagram span,
+.div-contact .div-b .div-communities a#contact_instagram svg {
+  color: rgba(108, 37, 65, 0.9607843137);
+}
+.div-contact .div-b .div-communities a:hover {
+  cursor: pointer;
+  background-color: rgba(170, 184, 191, 0.6039215686);
+}
+.div-contact .div-b .div-communities a:hover span,
+.div-contact .div-b .div-communities a:hover svg {
+  color: rgba(75, 21, 64, 0.9843137255) !important;
+  text-decoration: underline;
+}

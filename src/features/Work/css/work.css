@@ -1,0 +1,63 @@
+.div-work {
+  max-width: 385px;
+  display: flex;
+  flex-direction: column;
+}
+.div-work .p-title {
+  color: #bfb5aa;
+  text-wrap: nowrap;
+}
+.div-work .div-orgs {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.div-work .div-orgs .div-org {
+  background-color: rgba(173, 173, 173, 0.065);
+  padding: 10px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.div-work .div-orgs .div-org svg {
+  width: 20px;
+  height: 20px;
+  color: rgb(144, 144, 255);
+}
+.div-work .div-orgs .div-org img {
+  width: 38px;
+  margin-left: -6px;
+}
+.div-work .div-orgs .div-org div {
+  flex-grow: 1;
+}
+.div-work .div-orgs .div-org div#div-org-id-nbk {
+  margin-left: -12px;
+}
+.div-work .div-orgs .div-org div .p-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+  color: rgb(173, 151, 170);
+}
+.div-work .div-orgs .div-org div .p-job-title {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(134, 122, 132);
+}
+.div-work .div-orgs .div-org div .p-date {
+  font-size: 11px;
+  color: rgb(125, 118, 147);
+}
+.div-work .div-orgs .div-org div .p-desd {
+  font-size: 12px;
+}
+.div-work .div-orgs .div-org:hover {
+  background-color: rgba(173, 173, 173, 0.187);
+  cursor: pointer;
+}
