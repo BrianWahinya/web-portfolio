@@ -6,6 +6,8 @@
   width: 100%;
   height: -moz-fit-content;
   height: fit-content;
+  position: fixed;
+  top: 0;
 }
 .navbar .nav-content {
   margin: 0 auto;

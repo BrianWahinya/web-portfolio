@@ -21,9 +21,12 @@
       body{
         /* width: 100%; */
         /* background-color: #dfdfdf; */
-        min-height: 96vh;
+        min-height: 98svh;
         place-content: center;
-            
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         background-image: linear-gradient(
             161deg,
             rgba(121, 121, 121, 0.02) 0%,
@@ -173,12 +176,14 @@
       }
       #root{
         min-height: 200px;
+        flex-grow: 1;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content:center;
       }
       .loader {
+        margin-top: -100px;
         width: 38px;
         height: 26px;
         position: relative;
